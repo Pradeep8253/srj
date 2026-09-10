@@ -1,0 +1,129 @@
+.body-you {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+  }
+  .ply-b {
+    width: 9rem;
+    height: auto;
+    filter: drop-shadow(0px 0px 5px white);
+}
+  .ply-b:hover{
+color:#014444;
+  }
+  .containery {
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://img.freepik.com/free-photo/bangkok-city-sunrise-thailand_335224-868.jpg?t=st=1720587937~exp=1720591537~hmac=f900dc8…&w=1060);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+  .d-p {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.d-p2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.d-p3 {
+    font-size: 31px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+  #play-button-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/bangkok-city-sunrise-thailand_335224-868.jpg?t=st=1720587937~exp=1720591537~hmac=f900dc883a8b6e2ba411c686597dc2839d5cae85c927fd066e6c2db45ed2dc41&w=1060'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%); /* Dark effect */
+    z-index: 1;
+  }
+  
+  #play-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  
+  #details-container,
+  #video-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  #details-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+   
+    top: 0%;
+    --mask: 
+    linear-gradient(#000 0 0) 50%/calc(100% - 29.6px) calc(100% - 29.6px) no-repeat,
+    radial-gradient(farthest-side,#000 98%,#0000) 0 0/32px 32px round;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          border: 2px solid white;
+}
+
+  #ok-button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 1em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #014444;
+  }
+  #ok-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #014444;
+  }
+  
+  #video-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }

@@ -1,0 +1,252 @@
+/* Base Navbar Styles */
+.navbar {
+  background: transparent;
+  box-shadow: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  padding-right: 2rem;
+}
+
+.navbar.scrolled {
+  background: rgb(1 68 68);
+  box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+}
+.logo-srj {
+  width: 70px;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 50%;
+  transition: width 0.4s ease, height 0.4s ease; /* Adjust timing and easing as needed */
+}
+
+.scrolled .logo-srj {
+  width: 50px;
+  height: auto; /* Adjust if you want to change the height as well */
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+
+/* Menu Styles */
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: max-height 0.3s ease-out;
+}
+
+.navbar-collapse.show {
+  max-height: 500px;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-collapse {
+    max-height: none;
+    display: flex;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+  
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background-color: aliceblue;
+    border-radius: 3px;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    padding-right: 0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    background-color: #655ac1;
+  }
+  
+  .logo-srj {
+    width: 62px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 50%;
+  }
+
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.show {
+    max-height: 500px;
+  }
+}
+
+/* Contact Info and Button Styles */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 37, 41, 0.71);
+  padding: 2px 17px;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Button Styling */
+.button-13 {
+  background-color: #5356bd;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 108px;
+}
+
+.button-13:hover {
+  background-color: rgb(255, 153, 0);
+  color: black;
+}
+
+.button-13:focus {
+  border-color: rgb(255, 153, 0);
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+/* Navbar Links and Branding */
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(255, 153, 0);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: rgb(1 68 68);
+}
+
+.dropdown-item {
+  color: white;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+      border: 1px solid white;
+  }
+}
+.dropdown-item:hover {
+  background-color: rgb(255, 153, 0);
+  color: black;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* Animated Hamburger Icon */
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.animated-icon {
+  width: 30px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.animated-icon span {
+  background-color: #ffffff;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  margin: 5px 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+      flex-direction: row;
+      gap: 1rem;
+  }
+}
+
+.navbar-toggler.open .animated-icon span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.navbar-toggler.open .animated-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler.open .animated-icon span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}

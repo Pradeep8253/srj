@@ -1,0 +1,1020 @@
+/* App.css */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
+
+
+
+
+
+
+
+
+#app { height: 100% }
+html,
+.container-as {
+  position: relative;
+  height: 100%;
+}
+
+.container-as {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container-as {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.mySwipera {
+  width: 100%;
+  padding-top: 93px;
+  padding-bottom: 50px;
+}
+
+.swipersl {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 0px 6px white);
+  border-radius: 10px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.container-as {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  padding-top: 6rem;
+  align-items: center;
+}
+
+.content-as {
+  width: 40%;
+  padding: 20px;
+}
+.lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.icc{
+  margin-right: 3px;
+  
+}
+.icon-onclick-pp {
+  position: absolute;
+  margin-bottom: 21rem;
+  z-index: 999;
+  cursor: pointer;
+  left: 39%;
+  top: 23%;
+}
+
+.icon-back-pp {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 13px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
+}
+.sl-a{
+  width: 100%;
+  height: 100%;
+}
+.icon-back-pp:hover{
+  background-color: #56a8f0;
+}
+
+.icon-pl-pp {
+  font-size: 24px; /* Adjust as needed */
+}
+
+.popup-pp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure the popup is above other content */
+}
+
+.popup-content-pp {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; /* Adjust width as needed */
+  max-width: 625px; /* Adjust max-width as needed */
+}
+
+.close-btn-pp {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: black; /* Adjust color as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-pl-pp {
+  width: 3rem;
+  height: auto;
+}
+.icon-pl-pp2 {
+  position: absolute;
+  bottom: 0; /* Fix the bottom of the element */
+  width: 4rem;
+  height: auto;
+  transform-origin: bottom center; /* Pivot point for pendulum effect */
+  animation: pendulum 2s ease-in-out infinite;
+}
+
+@keyframes pendulum {
+  0% {
+    transform: rotate(-30deg); /* Swing to left */
+  }
+  50% {
+    transform: rotate(30deg); /* Swing to right */
+  }
+  100% {
+    transform: rotate(-30deg); /* Back to left */
+  }
+}
+
+.content-as h2 {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.content-as p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.content-as ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-as li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.call-button-as {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  flex-direction: column;
+}
+.oo{
+  width:55px;
+  margin-bottom: 10px;
+  height: auto;
+}
+.nn{
+  font-weight: 600;
+  cursor: pointer;
+}
+.call-button-as img {
+  margin-right: 10px;
+  filter: drop-shadow(2px 4px 6px rgb(255, 255, 255));
+}
+
+.call-button-as span {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.slider-as {
+  width: 60%;
+  position: relative;
+}
+.slider-arrow {
+  color: aliceblue;
+  position: relative;
+  right: 0;
+  left: 122px;
+  top: 71px;
+}
+.slider-as img {
+  width: 100%;
+  height: 19rem;
+  object-fit: fill;
+}
+
+.play-button-as {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.modal-as {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  width: 600px;
+  max-width: 100%;
+}
+
+.overlay-as {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.close-button-as {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.video-wrapper-as {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper-as iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.full-about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    padding-top: 0rem;
+  }
+  .div-all-about {
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+  .head-about {
+    height: 100vh;
+    padding-top: 3rem;
+    position: relative;
+    background: linear-gradient(rgb(97 100 103), rgb(0 0 0 / 8%)), url(https://img.freepik.com/premium-photo/low-angle-view-illuminated-buildings-against-sky-night_1048944-19631638.jpg?w=900) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0rem;
+  }
+  .div-call {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .div-call-icon{
+    color: #fbfbfb;
+  }
+  .div-call-text{
+    color: #ffffff;
+  }
+  .head-text {
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    filter: drop-shadow(2px 4px 6px white);
+}
+  .head-text-span{
+      color: #56a8f0;
+  }
+  .head-text-h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    font-size: 3rem;
+    text-align: center;
+}
+.hh {
+  color: white;
+  padding-left: -1rem;
+  position: relative;
+  left: 3rem;
+  top: 3rem;
+  width: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: cursive;
+  font-style: italic;
+}
+.head-text-h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+  .head-text-p {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      letter-spacing: 1px;
+      font-weight: 100;
+      text-align: center;
+  }
+  .div-text{
+      padding: 4rem;
+  }
+  
+  
+
+
+
+
+
+  
+  .about-body {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    /* border-top-left-radius: 40px; */
+    /* border-top-right-radius: 40px; */
+    margin-top: 0rem;
+}
+.about-section {
+    background: url(https://img.freepik.com/free-photo/modern-tokyo-street-background_23-2149394892.jpg?t=st=1718778970~exp=1718782570~hmac=e9e9dccbb82827cc9e6665800f2d6d0d93ea4f381381c74185029db637f07d11&w=900) no-repeat left;
+    background-size: 55%;
+   
+    overflow: hidden;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #014444;
+  padding: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.text{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+
+
+ .divide-a{
+  height: 1vh;
+ } 
+ .about-bodyr {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  /* border-top-left-radius: 10%; */
+  /* border-top-right-radius: 10%; */
+  margin-top: 0rem;
+}
+.about-sectionr {
+    background: url(https://img.freepik.com/premium-photo/exterior-amazing-modern-minimalist-cubic-villa_916191-196469.jpg?w=900) no-repeat right;
+    background-size: 55%;
+   
+    overflow: hidden;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+.inner-containerr {
+  width: 55%;
+  float: left;
+  background-color: #014444;
+  padding: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.inner-containerr h1{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.textr{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skillsr{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-containerr{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-sectionr{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-containerr{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-sectionr{
+        padding: 0;
+    }
+    .inner-containerr{
+        padding: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.team-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  padding: 47px 32px;
+  margin-top: 3rem;
+  
+}
+
+
+.section-title {
+    font-size: 4rem;
+    
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-title-span{
+    color: rgb(0, 0, 0);
+}
+.section-divider {
+    
+    height: 0.25rem;
+    background-color: #000000;
+    margin: 16px auto 24px;
+    border: none;
+}
+  
+.section-description {
+  text-align: center;
+  font-size: 15px;
+  color: #2d3748;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 64px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 55vh;
+  }
+  
+  .team-member.reverse {
+    flex-direction: column-reverse;
+  }
+  
+  @media (min-width: 768px) {
+    .team-member {
+      flex-direction: row;
+    }
+    .team-member.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  
+  .member-image {
+    flex: 1 1;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    border: 5px solid #eb8d00;
+    filter: drop-shadow(2px 4px 6px black);
+}
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+  
+  @media (min-width: 1024px) {
+    .member-image img {
+      aspect-ratio: 1/1;
+    }
+  }
+  
+  .member-info {
+    flex: 1 1;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    border: 5px solid #eb8d00;
+    filter: drop-shadow(2px 4px 6px black);
+}
+  
+  .bg-red {
+    background-color: #014444;
+  }
+  
+ 
+  
+  .member-name {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .member-role {
+    display: inline-block;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 8px 0 20px;
+  }
+  
+  .member-description {
+    color: #ffffff;
+    opacity: 1.75;
+    line-height: 1.75;
+    font-size: 1.2rem;
+}
+
+.butt-nav1 {
+    background: linear-gradient(to bottom right, #eb8d00, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    margin-left: 0rem;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  .butt-nav1:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  .butt-nav1:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+
+
+  
+@media only screen and (max-width: 767px){
+  .head-about {
+    height: auto;
+    position: relative;
+    background: linear-gradient(rgb(97 100 103), rgb(0 0 0 / 8%)), url(https://img.freepik.com/premium-photo/low-angle-view-illuminated-buildings-against-sky-night_1048944-19631638.jpg?w=900) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0rem;
+}
+.div-text {
+  padding: 0rem;
+}
+.head-text {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  filter: drop-shadow(2px 4px 6px white);
+}
+.head-text-h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 7px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.head-text-h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.head-text-p {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 12px;
+}
+.inner-container {
+  padding: 26px;
+}
+.about-section {
+  background: url(https://img.freepik.com/free-photo/modern-tokyo-street-background_23-2149394892.jpg?t=st=1718778970~exp=1718782570~hmac=e9e9dcc…&w=900) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 36px 0;
+  height: auto;
+}
+.inner-container h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.inner-containerr {
+  padding: 26px;
+}
+
+.about-sectionr {
+  background: url(https://img.freepik.com/premium-photo/exterior-amazing-modern-minimalist-cubic-villa_916191-196469.jpg?w=900) no-repeat right;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 36px 0;
+  height: auto;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: auto;
+}
+.team-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fcfbfb;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 47px 32px;
+  margin-top: 2rem;
+}
+.container-as {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  align-items: center;
+  flex-direction: column;
+}
+.icon-onclick-pp {
+  position: absolute;
+  margin-bottom: 21rem;
+  z-index: 999;
+  cursor: pointer;
+  left: 3%;
+  top: 53%;
+}
+iframe {
+  border: 1px solid #4d4239;
+  filter: drop-shadow(2px 4px 6px black);
+  width: 323px;
+}
+.div-all-about {
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.popup-content-pp {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 98%;
+  max-width: 624px;
+}
+.icon-back-pp {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 7px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
+}
+.icon-pl-pp {
+  width: 3rem;
+  height: auto;
+}
+.content-as {
+  width: 100%;
+  padding: 10px;
+}
+.call-button-as span {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.content-as p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: white;
+}
+.oo {
+  width: 39px;
+  margin-bottom: 10px;
+  height: auto;
+}
+.content-as li {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+}
+.popup-pp {
+  position: fixed;
+  top: 37px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.slider-as {
+  width: 100%;
+  position: relative;
+}
+.slider-arrow {
+  color: aliceblue;
+  position: relative;
+  right: 0;
+  left: -37px;
+  top: 24rem;
+}
+.mySwipera {
+  width: 100%;
+  padding-top: 10px;
+  height: 20rem;
+  padding-bottom: 0px;
+}
+.hh {
+  color: white;
+  padding-left: -1rem;
+  position: relative;
+  left: 3rem;
+  top: 3rem;
+  width: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: none;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .inner-container {
+    padding: 35px;
+}
+.inner-containerr {
+  padding: 35px;
+}
+.hh {
+  color: white;
+  padding-left: -1rem;
+  position: relative;
+  left: -18rem;
+  top: 18rem;
+  width: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.textr {
+  font-size: 15px;
+  color: #000000;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 2px;
+}
+.text {
+  font-size: 15px;
+  color: #010101;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 2px;
+}
+.about-section {
+  background-size: 100%;
+  padding: 95px 0px;
+  padding-left: 295px;
+}
+.about-sectionr {
+  background-size: 100%;
+  padding: 126px 0px;
+  padding-right: 295px;
+}
+.container-as {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  padding-top: 6rem;
+  align-items: center;
+  flex-direction: column;
+}
+.content-as {
+  width: 100%;
+  padding: 20px;
+}
+.slider-as {
+  width: 100%;
+  position: relative;
+}
+.icon-onclick-pp {
+  position: absolute;
+  margin-bottom: 21rem;
+  z-index: 999;
+  cursor: pointer;
+  left: 8%;
+  top: 53%;
+}
+.member-description {
+  color: #ffffff;
+  opacity: 1.75;
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+.slider-arrow {
+  color: aliceblue;
+  position: relative;
+  top: 24rem;
+  left: -19rem;
+}
+
+}
+
+
+

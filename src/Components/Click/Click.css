@@ -1,0 +1,150 @@
+.section-click {
+    display: flex;
+    height: 28vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#c2a472;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+  .left-side,
+  .right-side {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 1 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.c-head {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.c-para {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.button-19 {
+    align-items: center;
+    background-color: #ff9900;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-19:hover,
+  .button-19:focus { 
+    background-color: #a56401;
+    color: #ffffff;
+  }
+  
+  .button-19:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-19:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  } 
+.right-side {
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.explore-button {
+  background-color: #f89500;
+  color: #014444;
+  border: 2px solid #014444;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+  
+  .explore-button:hover {
+    background-color: #a16203; 
+    color: white;/* Darker blue on hover */
+  }
+  
+
+
+
+
+  @media only screen and (max-width: 767px){
+    .section-click {
+      display: flex;
+      height: auto;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #c2a472;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      flex-direction: column;
+  }
+  .right-side {
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+  .c-head {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.c-para {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 0;
+}
+  }
+
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .section-click {
+      display: flex;
+      height: 28vh;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #c2a472;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+  }

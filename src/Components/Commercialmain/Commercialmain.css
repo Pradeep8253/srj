@@ -1,0 +1,199 @@
+.card-groupc {
+    display: flex;
+  
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.card-textc{
+   color: rgb(2, 2, 2);
+        font-size: 14px;
+        text-align: justify;
+    }
+    .card-title2c {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+        color: rgb(0, 0, 0);
+    }
+    .card-img-top2c {
+        width: 100%;
+        height: 14rem !important;
+        object-fit: fill !important;
+    }
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 0px;
+        left: 0px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+.seven2c h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 1.3rem;
+}
+.card-bodyc {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #ffffff;
+}
+  .seven2c h1:after,.seven2c h1:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #c50000;
+      border-top: 1px solid #c50000;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+ 
+.button-3c {
+  appearance: none;
+  background-color:#014444;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3c:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3c:hover {
+  background-color: #2c974b;
+}
+
+.button-3c:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3c:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3c:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+
+
+  .res-divc {
+    position: sticky;
+    height: 100%;
+    
+  }
+  
+.res-divc {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
+  background-color: #014444;
+ border-top-left-radius: 40PX;
+ border-top-right-radius: 0%;
+ margin-top: 2rem;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    
+  }
+  
+  .mySwiper3c {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff00;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+  
+
+  @media only screen and (max-width: 767px){
+    .card-groupc {
+      display: flex;
+      gap: 1rem;
+      padding-right: 1rem;
+      padding-left: 0;
+      flex-direction: column;
+      margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .card-groupc {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+    padding-left: 0;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+}

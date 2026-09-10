@@ -1,0 +1,201 @@
+.container-ace {
+    display: flex;
+    justify-content: space-between;
+  }
+ .main-all-ace{
+    background-color: #232425;
+   position: relative;
+   height: auto;
+   z-index: 10;
+ }
+  
+ .once{
+    top: 56px;
+    
+ }
+ .twice{
+    top: 110px;
+ }
+ .thrice{
+    top: 165px;
+ }
+.h4-1{
+    top: 220px;
+ }
+
+  .left-ace, .right-ace {
+    flex: 1;
+  }
+  .right-ace{
+    border-left: 4px solid #f7970f;
+  }
+  .all-ace {
+    border-top-left-radius: 40px;
+    background-color: #014444;
+    position: sticky;
+    border: 2px solid #f7970f;
+}
+  .ace-all-head{
+    padding: 15px;
+    color: white;
+  }
+  .ace-image {
+    width: 100%;
+    height: 18rem;
+    object-fit: fill;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description, .property-type {
+    margin-bottom: 10px;
+  }
+  
+  .card-pointer {
+    margin-bottom: 10px;
+  }
+  
+  .points-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .point-item {
+    margin-bottom: 5px;
+  }
+  
+  .card-am {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-date {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date {
+    margin-right: 5px;
+  }
+  
+  .button-15 {
+    background-color: #014444;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, 0.909) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 0 11px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+  
+  .button-15:hover {
+    background-color: #f7970f;
+    color: #014444;
+  }
+  
+
+  
+@media only screen and (max-width: 767px){
+  .ace-all-head {
+    padding: 5px !important;
+    color: white;
+    font-size: 10px !important;
+}
+.ace-all-head {
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+}
+.ace-all-head {
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+}
+.container-ace {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.all-ace {
+  border-top-left-radius: 19px !important;
+  background-color: #ed7458;
+  position: sticky;
+  border: 2px solid black;
+}
+.ace-image {
+  width: 100%;
+  height: 8rem !important;
+  object-fit: cover !important;
+}
+.twice {
+  top: 76px !important;
+}
+.thrice {
+  top: 99px !important;
+}
+.h4-1 {
+  top: 121px !important;
+}
+.card-title {
+  font-size: 12px !important;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2px;
+}
+.card-description {
+  font-size: 11px !important;
+  line-height: 1.3;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+}
+.point-item {
+  margin: 0px 0;
+  padding: 0px;
+  border-radius: 3px;
+  color: black;
+  font-size: 11px;
+}
+.date {
+  margin: 0;
+  color: black;
+  font-size: 11px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}

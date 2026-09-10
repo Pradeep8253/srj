@@ -1,0 +1,221 @@
+.gall-main{
+    background-color:#014444;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 0%;
+    margin-top: 2rem;
+    position: sticky;
+    padding-top: 0.5rem;
+}
+
+.gallery-container-gl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 2rem;
+}
+  
+  .row-gl {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .image-card-gl {
+    width: 368px;
+    height: 240px;
+    overflow: hidden;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    border-radius: 13px;
+    filter: drop-shadow(0px 0px 6px white);
+}
+
+.image-card-gl:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+} 
+.image-card-gl img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+    filter: drop-shadow(2px 4px 6px white);
+}
+  
+  .move-up-gl {
+    transform: translateY(-10px);
+  }
+  .move-up-gl1 {
+    transform: translateY(57px);
+  } 
+  .move-down-gl {
+    transform: translateY(10px);
+  }
+  .move-down-gl2 {
+    transform: translateY(-57px);
+}
+  
+.center-content-gl {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+  
+.center-content-gl h1 {
+    margin-bottom: 23px;
+    color: white;
+    font-size: 27px;
+    width: 60%;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+  
+  .center-content-gl button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.button-18 {
+  align-items: center;
+  background-color: #ff9900;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #a56401;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+  .row-gl {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0;
+    flex-direction: column;
+  } 
+  .move-down-gl2 {
+    transform: translateY(46px);
+}
+.move-down-gl {
+  transform: translateY(49px);
+}
+.move-up-gl1 {
+  transform: translateY(28px);
+}
+.move-up-gl {
+  transform: translateY(30px);
+}
+.center-content-gl {
+  text-align: center;
+  margin: 0px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+  .image-card-gl {
+    width: 100%;
+    height: 318px;
+    overflow: hidden;
+    margin: 0 0px;
+    
+    border-radius: 13px;
+    filter: drop-shadow(0px 0px 6px white);
+}
+.gall-main {
+  background-color: #014444;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 0%;
+  margin-top: 2rem;
+  position: sticky;
+  padding-top: 0.5rem;
+}
+.image-card-gl img {
+  width: 100%;
+  height: 15rem;
+  object-fit: fill;
+  border-radius: 12px;
+  filter: drop-shadow(2px 4px 6px white);
+}
+.image-card-gl:hover{
+  transform: none !important;
+  transition-duration: 1s;
+} 
+  
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+ 
+.image-card-gl {
+  width: 228px;
+  height: 160px;
+  overflow: hidden;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+  border-radius: 13px;
+  filter: drop-shadow(0px 0px 6px white);
+}
+.center-content-gl {
+  text-align: center;
+  margin: 76px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.row-gl {
+  display: flex;
+  justify-content: center;
+  margin: 48px 0;
+}
+}
+

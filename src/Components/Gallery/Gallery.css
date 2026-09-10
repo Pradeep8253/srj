@@ -1,0 +1,102 @@
+
+
+.gallery-main {
+  background-color:#014444;
+  padding-left: 1rem;
+  padding-right: 0rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 0%;
+  margin-top: 2rem;
+  position: sticky;
+  padding-top: 0.5rem;
+}
+.gallery {
+    padding-top: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    background-color: rgba(204, 208, 212, 0);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+
+.img-g {
+  width: 395px;
+  height: 225px;
+  object-fit: cover;
+}
+  
+.img-g:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  border-radius: 5%;
+  border: 1px solid rgb(255 255 255);
+  box-shadow: 1px 1px 10px rgb(255 255 255);
+}
+
+
+
+
+
+  @media only screen and (max-width: 767px){
+    .gallery {
+      padding-top: 1rem;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 3rem;
+      gap: 1rem;
+      background-color: rgba(204, 208, 212, 0);
+      border-top-left-radius: 15%;
+      border-top-right-radius: 15%;
+      filter: drop-shadow(2px 4px 6px black);
+      padding-right: 1rem;
+  }
+   
+  .img-g:hover{ 
+    transform: scale(1.02);
+    transition-duration:1s;
+    border-radius:5%;
+    border:1px solid rgb(250, 58, 24);
+    box-shadow:1px 1px 10px rgb(238, 35, 8);
+  }
+}
+
+ 
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .img-g {
+    width: 350px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .gallery {
+    padding-top: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(204, 208, 212, 0);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+ 
+.img-g:hover{ 
+  transform: scale(1.04);
+  transition-duration:1s;
+  border-radius:5%;
+  border:1px solid rgb(250, 58, 24);
+  box-shadow:1px 1px 10px rgb(238, 35, 8);
+}
+}

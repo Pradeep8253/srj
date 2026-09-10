@@ -1,0 +1,44 @@
+.post-sp {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    border-top: 10px solid #014444;
+    border-bottom: 10px solid #014444;
+  }
+  
+  .left-post-sp,
+  .right-post-sp {
+    flex: 1;
+  }
+  .left-post-sp{
+    border-right: 10px solid #014444;
+  }
+  .left-post-sp img,
+  .right-post-sp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 767px){
+    .post-sp {
+      display: flex;
+      width: 100%;
+      height: auto;
+      border-top: 10px solid #014444;
+      border-bottom: 10px solid #014444;
+      flex-direction: column;
+  }
+  .left-post-sp {
+    border-bottom: 10px solid #014444;
+}
+  }
+  

@@ -1,0 +1,58 @@
+.why-us-section-w {
+    text-align: center;
+    padding: 40px;
+    background-color: #c2a472;
+  }
+  
+  .why-us-heading-w {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+  
+.why-us-description-w {
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+  
+  .why-us-cards-w {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .why-us-card-w {
+    background-color: #014444d1;
+    border-radius: 10px;
+    box-shadow: 0 0px 12px #000000;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+  
+  .why-us-icon-w {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0px 0px 5px white);
+}
+  
+  .why-us-card-heading-w {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+  
+.why-us-card-text-w {
+    font-size: 16px;
+    color: white;
+}
+  
